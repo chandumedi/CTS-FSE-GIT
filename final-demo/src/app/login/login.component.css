@@ -1,0 +1,25 @@
+.login-container{
+    width: 40vw;
+    margin: auto;
+    padding-top: 10vh;
+}
+.login-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.login-wrapper > * {
+    width: 100%;
+}
+.error-message {
+    color: red;
+    padding: 1em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper button{
+    margin-left: 0.5em;
+}

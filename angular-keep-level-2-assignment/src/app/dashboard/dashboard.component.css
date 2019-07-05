@@ -1,0 +1,25 @@
+.note-expansion-panel{
+    width: 40vw;
+    margin-left: 23em;
+    margin-top: 0.5em;
+  }
+  .header-container{
+    background-color: rgb(104, 46, 51);
+  }
+  .note-panel{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card-content{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    margin-left: 0.2em;
+  }
+  .error-message{
+    color: red;
+  }
+  .mat-panel-title{
+    
+  }
+ 

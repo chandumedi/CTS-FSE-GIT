@@ -1,0 +1,15 @@
+.keep-c-toggle-view {
+	width: 100%;
+	margin-left: 67%;
+	cursor: pointer;
+}
+.active	 {
+		color: #FFEB3B;
+}
+.user-div{
+	margin-left: -1em;
+}
+.mat-tab-label-content{
+	color: azure;
+    font-size: 1.5em;
+}

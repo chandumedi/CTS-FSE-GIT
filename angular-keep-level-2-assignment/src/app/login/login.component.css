@@ -1,0 +1,13 @@
+.login-form
+{
+    justify-content: center;
+    padding-top: 5vh;
+    margin-left: 27vw;
+    padding-bottom: 2em;
+   
+}
+
+.login-container{
+    background-color: #989080;
+    border-radius: 2.5em;
+}

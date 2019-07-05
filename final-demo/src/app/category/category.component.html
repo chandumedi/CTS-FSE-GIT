@@ -1,0 +1,10 @@
+<div><label class="error-message">{{ submitMessage }}</label></div>
+<mat-form-field>
+  <textarea [formControl]="categoryName" name="categoryName" matInput placeholder="Category Name"></textarea>
+</mat-form-field>
+<mat-form-field>
+  <textarea [formControl]="categoryDescription" name="categoryDescription" matInput placeholder="Category Description"></textarea>
+</mat-form-field>
+<div class="keep-c-done-wrapper">
+  <button mat-button (click)="addCategory()">Add</button>
+</div>

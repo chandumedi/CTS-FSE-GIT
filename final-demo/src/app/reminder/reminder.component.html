@@ -1,0 +1,35 @@
+<app-header></app-header>
+<!-- Label to display any error messages -->
+<label class="error-message">{{ submitMessage }}</label>
+<!-- Expansion panel to add new notes -->
+<div class="reminder-panel">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>Take a Reminder</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class='keep-note-wrapper'>
+            <mat-form-field>
+                <input matInput name="reminderName" [formControl]="reminderName"  placeholder="name" required>
+            </mat-form-field>
+            <mat-form-field>
+                <textarea matInput name="reminderDescription" [formControl]="reminderDescription"  placeholder="Description" required></textarea>
+            </mat-form-field>
+            <mat-select name="reminderType" placeholder="Select Reminder" [formControl]="reminderType">
+                <mat-option *ngFor="let reminder of reminderTypes" [value]="reminder">
+                 {{reminder}} 
+                </mat-option>
+              </mat-select>
+            <div class='keep-note-button'>
+                <button mat-raised-button (click)="addReminder()" color="primary">Done</button>
+            </div>
+        </div>
+    </mat-expansion-panel>
+</div>
+
+<div>
+  <mat-card  class="reminder-panel" *ngFor="let reminder of reminders">
+    <mat-card-title>{{reminder.reminderName}}</mat-card-title>
+    <mat-card-content>{{reminder.reminderDescription}}</mat-card-content>
+</mat-card>
+</div>
+

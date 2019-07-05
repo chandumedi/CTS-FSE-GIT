@@ -1,0 +1,32 @@
+<mat-toolbar style="    background: #5a865c;">Keepnote</mat-toolbar>
+<label class="error-message">{{ submitMessage }}</label>
+<div class="registration-container">
+  <mat-card>
+      <div class="registration-wrapper">
+          <mat-form-field>
+              <input matInput class="username" name="userId" placeholder="Enter your User Id" [formControl]="userId" required>
+             <!-- <mat-error  class="error-message" *ngIf="userid.invalid">{{getUserNameErrorMessage()}}</mat-error>-->
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput class="username" name="userPassword" placeholder="Enter your password" type="password" [formControl]="userPassword" required>
+            <!--<mat-error  class="error-message" *ngIf="userpassword.invalid">{{getUserNameErrorMessage()}}</mat-error>-->
+        </mat-form-field>
+          <mat-form-field>
+            <input matInput class="username" name="firstName" placeholder="Enter your first name" [formControl]="firstName" required>
+           <!-- <mat-error  class="error-message" *ngIf="firstname.invalid">{{getUserNameErrorMessage()}}</mat-error>-->
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput class="username" name="lastName" placeholder="Enter your last name" [formControl]="lastName" 
+          >
+          
+      </mat-form-field>
+          <mat-form-field>
+              <input matInput class="password" name="userRole" placeholder="Enter your role"  [formControl]="userRole" >
+              
+
+          </mat-form-field>
+          <button class="btn btn-primary" color="primary" (click)='registerUser()'>Register</button>
+      </div>
+  </mat-card>
+  <a routerLink="/login" routerLinkActive="active">Click here to login</a>
+</div>

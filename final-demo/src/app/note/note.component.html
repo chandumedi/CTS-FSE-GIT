@@ -1,0 +1,9 @@
+<mat-card (click)='openEditView()' class="note-panel">
+    <mat-card-title>{{note.noteTitle}}</mat-card-title>
+    <mat-card-content>{{note.noteContent}}</mat-card-content>
+</mat-card>
+<div class="keep-c-done-wrapper">
+    <button mat-button   (click)="deleteNote(note.noteId)">Delete</button>
+</div>
+
+

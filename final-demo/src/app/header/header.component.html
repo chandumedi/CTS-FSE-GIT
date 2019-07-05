@@ -1,0 +1,13 @@
+<mat-toolbar style="    background: #5a865c;">Keep
+		<nav mat-tab-nav-bar >
+				<a mat-tab-link routerLink="/dashboard">Notes</a>
+				<a mat-tab-link routerLink="/reminder" >Reminder</a>
+		</nav>
+	<div class="keep-c-toggle-view">
+		<i *ngIf="isNoteView" class="material-icons switchToListView" (click)="switchToListView()">view_list</i>
+		<i *ngIf="!isNoteView" class="material-icons switchToNoteView" (click)="switchToNoteView()">view_quilt</i>
+	</div>
+	
+	<a routerLink="/login"  class="active">logout</a>
+	<label for="">({{loginUser}})</label>
+</mat-toolbar>

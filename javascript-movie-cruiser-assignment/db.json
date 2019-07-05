@@ -1,0 +1,54 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "GOT Season1",
+      "posterPath": "./images/got1.jpg",
+      "description": "Game of Thrones premiered on HBO in the United States and Canada on April 17, 2011,[122][123] and on Sky Atlantic in the United Kingdom and Ireland on April 18, 2011,[124] with a same-day release on HBO Central Europe.[125] The series premiered in Australia on Showcase on July 17, 2011."
+    },
+    {
+      "id": 2,
+      "title": "GOT Season2",
+      "posterPath": "./images/got2.jpg",
+      "description": "The third season was released on DVD and Blu-ray in region 1 on February 18, 2014,[74] in region 2 on February 17, 2014[75] and in region 4 on February 19, 201"
+    },
+    {
+      "id": 3,
+      "title": "GOT Season3",
+      "posterPath": "./images/got3.jpg",
+      "description": "The third season was released on DVD and Blu-ray in region 1 on February 18, 2014,[74] in region 2 on February 17, 2014[75] and in region 4 on February 19, 201"
+    },
+    {
+      "id": 4,
+      "title": "GOT Season4",
+      "posterPath": "./images/got4.jpg",
+      "description": "The fourth season of Game of Thrones was released on DVD and Blu-ray in region 1 on February 17, 2015."
+    }
+  ],
+  "favourites": [
+    {
+      "id": 1,
+      "title": "GOT Season1",
+      "posterPath": "./images/got1.jpg",
+      "description": "Game of Thrones premiered on HBO in the United States and Canada on April 17, 2011,[122][123] and on Sky Atlantic in the United Kingdom and Ireland on April 18, 2011,[124] with a same-day release on HBO Central Europe.[125] The series premiered in Australia on Showcase on July 17, 2011."
+    },
+    {
+      "id": 3,
+      "title": "GOT Season3",
+      "posterPath": "./images/got3.jpg",
+      "description": "The third season was released on DVD and Blu-ray in region 1 on February 18, 2014,[74] in region 2 on February 17, 2014[75] and in region 4 on February 19, 201"
+    },
+    {
+      "id": 2,
+      "title": "GOT Season2",
+      "posterPath": "./images/got2.jpg",
+      "description": "The third season was released on DVD and Blu-ray in region 1 on February 18, 2014,[74] in region 2 on February 17, 2014[75] and in region 4 on February 19, 201"
+    },
+    {
+      "id": 4,
+      "title": "GOT Season4",
+      "posterPath": "./images/got4.jpg",
+      "description": "The fourth season of Game of Thrones was released on DVD and Blu-ray in region 1 on February 17, 2015."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "title": "Angular Assignment",
+      "text": "Complete Angular assignment todayby EOD.",
+      "id": 2
+    },
+    {
+      "title": "gggg",
+      "text": "ggggggg",
+      "id": 3
+    },
+    {
+      "title": "vvvvvvvvvvvvvvvvvvvvvvvvv",
+      "text": "wwwwwwwwwwwwwww",
+      "id": 4
+    },
+    {
+      "title": "Tour plan",
+      "text": "Weekend plan",
+      "id": 5
+    },
+    {
+      "title": "ghghgh",
+      "text": "weeretrt",
+      "id": 6
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 7
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 8
+    }
+  ]
+}

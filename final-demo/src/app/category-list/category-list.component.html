@@ -1,0 +1,43 @@
+<div class="table-container">
+    <div><label class="error-message">{{ submitMessage }}</label></div>
+  <mat-table #table [dataSource]="dataSource">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="categoryName">
+      <mat-header-cell *matHeaderCellDef> categoryName </mat-header-cell>
+      <mat-cell *matCellDef="let element">  
+      <mat-form-field floatLabel="never">
+        <input matInput placeholder="Name" [value]="element.categoryName" [(ngModel)]="element.categoryName" >
+      </mat-form-field>
+    </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="categoryDescription">
+      <mat-header-cell *matHeaderCellDef> categoryDescription </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <mat-form-field floatLabel="never">
+          <input matInput placeholder="Name" [value]="element.categoryDescription" [(ngModel)]="element.categoryDescription" >
+        </mat-form-field>
+      </mat-cell>
+    </ng-container>
+
+
+  
+     <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef></mat-header-cell>
+        <mat-cell *matCellDef="let element">  
+        <button mat-button  (click)="updateCategory(element.categoryName,element.categoryDescription,element.id)">Update</button>
+        <button mat-button  (click)="deleteCategory(element.id)">Delete</button>
+        </mat-cell>
+      </ng-container> 
+    
+   
+   
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+</div>
